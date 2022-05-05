@@ -26,7 +26,7 @@ int main()
     else cout << "(x - " << x1 << ")";
 
     if (y1 == 0) cout << " " << endl;
-    else if (y1 < 0) cout << " - " << y1 << endl;
+    else if (y1 < 0) cout << " - " << abs(y1) << endl;
     else cout << " + " << y1 << endl;
 
 
